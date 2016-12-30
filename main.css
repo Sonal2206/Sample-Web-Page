@@ -1,0 +1,135 @@
+body {
+	margin: 5px;
+	background: #777;
+}
+
+header {
+	background: #FFF;
+	color: black;
+	border-radius: 10px;
+}
+header img {
+	margin: 0;
+	display: inline;
+
+
+}
+ nav ul {
+ 	margin : 0;
+ 	display: inline;
+ }
+nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	background: white;
+	color: black;
+	margin :0px;
+	padding: 15px;
+	padding-bottom: 25px;
+	
+	}
+nav ul li a {
+	color : black;
+	text-decoration: none;
+	display: inline-block;
+	padding : 15px;
+    font-weight: bold;
+    font-family: Helvetica;
+}
+.row {
+
+}
+.col{
+	float: left;
+	background: #555;
+	border-radius: 5px;
+	padding: 1 %;
+	width: 45%;
+	margin: 0 %;
+}
+.description-container {
+	    display: inline-block;
+    
+    display: inline-block;
+    background: #cb012a;
+    color: white;
+    position: relative;
+    left: : 0px;
+    
+    width: 900px;
+    vertical-align: top;
+    padding-top: 32px;
+    padding-left: 48px;
+        height: 368px;
+}
+#description-title {
+display: block;
+text-decoration: underline;
+font-family: Lucida;
+padding-bottom: 15px;
+}
+#description-heading{
+display: block;
+font-size: 150%;
+padding-bottom: 15px;
+
+}
+#description-price {
+display: block;
+ font-weight: 3px;
+ font-size: 150%;
+ padding-bottom: 20px;
+}
+#description-specification {
+	display: block;
+	font-weight: 2px;
+	padding-bottom: 10px;
+
+}
+
+	
+
+footer {
+	clear: both;
+	background: #FFF;
+	color: black;
+	font-family: Helvetica;
+	margin :0px;
+	padding :5px;
+	
+}
+footer img {
+	padding-bottom :15px;
+	display: inline;
+	margin-bottom: 50px;
+}
+
+
+
+
+
+
+.cor-but ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.cor-but li {
+    float: left;
+}
+
+.cor-but li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.cor-but li a:hover {
+    background-color: #cb012a;
+}
+

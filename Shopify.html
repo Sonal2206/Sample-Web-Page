@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Shopify</title>
+<script type="text/javascript">
+function changeImage(element, tel, hel, pel,sel) {
+document.getElementById('imageReplace').src = element;
+document.getElementById('description-title').innerHTML = tel;
+document.getElementById('description-heading').innerHTML = hel;
+document.getElementById('description-price').innerHTML = pel;
+document.getElementById('description-specification').innerHTML = sel;
+
+}
+</script>
+</head>
+<link rel="stylesheet" type="text/css" href="main.css">
+
+<header>
+  <nav>
+  <img src ="logo.png" width ="180px" height="70px">
+
+    <ul>
+      <li><a href="#">Range</a></li>
+      <li><a href="#">Where to buy</a></li>
+      <li><a href="#">Warranty</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+
+  </nav>
+  
+</header>
+
+<div>
+<img src="picture1.jpg" alt="Images" id="imageReplace" height="400px" width="300px"/>
+<div class="description-container">
+  <span id = "description-title"> <u>SKU:dress160805719</u></span> 
+  <span id = "description-heading"> Black Round Neck Long Sleeve Shift Dress </span>
+  <span id = "description-price"> 15 USD</span>
+  <span id = "description-specification"> Fabric: Fabric is very stretchy<br>
+Season: Fall <br>
+Type: Tshirt <br>
+Pattern Type: Plain <br>
+Sleeve Length(cm): XS:59.8cm, S:60.8cm, M:61.8cm, L:62.8cm <br>
+Color: Black <br>
+Dresses Length: Short <br>
+
+Size Available: XS,S,M,L </span>
+</div>
+
+
+
+<br />
+
+<div class="cor-but">
+<ul>
+<li><a href="#" class="active" onclick="changeImage('picture1.jpg' ,'SKU:dress160805719', 'Black Round Neck Long Sleeve Shift Dress','15 USD', 'Facric: Fabric is very stretchy<br> Season: Fall <br> Type:Tshirt <br> Pattern-type :Plain <br> Sleeve Length(cm) :XS:59.8cm, S:60.8cm, M:61.8cm, L:62.8cm <br> Color : Black <br> Dresses-Length :Short <br> Size Available :XS,S,M,L');">1</a></li>
+<li><a href="#" onclick="changeImage('picture 2.jpg', 'SKU:dress160112706' , 'Crew Neck Bodycon Dress','20 USD', 'Dress-length:Short<br>Style : Casual<br> Silhouette: Shift Material: Rayon Neckline: Round Neck ');">2</a></li>
+<li><a href="#" onclick="changeImage('picture 3.jpg', 'SKU:RDRE161124301 ' , 'Navy High Low Split Zipper Side Sweater Dress','18 USD', 'Season :Fall <br> Type: Sweater <br> Pattern-type :Plain <br> Color :Navy <br> Length :Short <br> ');">3</a></li>
+<li><a href="#" onclick="changeImage('picture 4.jpg', 'SKU:568790' , 'Blue Dress','45USD', ' Pattern-type : Color Block <br> Color :Pink <br> Dress-length :Mini<br>');">4</a></li>
+</ul>
+
+</div>
+
+
+<p><footer>
+ <strong>Contact Us </strong> <BR>
+ <strong>Where to buy </strong><BR>
+  Copyright 2011 <a href="#"> Private Policy </a></p>
+ <STRONG ><font align="left">Warranty</font></STRONG> 
+ 
+</footer>
+
+</html>
+
+
